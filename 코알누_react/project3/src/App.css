@@ -1,0 +1,74 @@
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  position: relative;
+  top: 50px;
+}
+.login-button button {
+  margin-left: 10px;
+}
+.nav-section {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.nav-flex {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.nav-flex li {
+  padding: 20px;
+}
+.navbar-b {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.search-nav {
+  position: relative;
+  top: 18px;
+  right: -30px;
+}
+.search-nav input {
+  margin-bottom: 5px;
+  margin-left: 7px;
+}
+.card-border {
+  transition: all 0.2s linear;
+
+  img {
+    transition: transform 0.2s linear;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.login-form {
+  border: 2px black solid;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.login-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.product-img {
+  display: flex;
+  justify-content: end;
+}

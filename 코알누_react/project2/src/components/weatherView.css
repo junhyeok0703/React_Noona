@@ -1,0 +1,11 @@
+.weather-container {
+  margin-top: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+.weather-info {
+  font-size: 24px;
+
+  font-weight: bold;
+}
